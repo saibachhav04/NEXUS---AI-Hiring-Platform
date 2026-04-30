@@ -15,7 +15,7 @@ public class ClaudeService {
 
     @Value("${groq.api.key}")
     private String apiKey;
-    
+
 
     @Value("${groq.model}")
     private String model;
