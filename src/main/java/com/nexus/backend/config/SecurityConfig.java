@@ -37,8 +37,11 @@ public class SecurityConfig {
                         .requestMatchers("/ws/**").permitAll()
                         .requestMatchers("/v1/**").permitAll()
                         .requestMatchers("/api/practice/questions/**")
+
                         .permitAll()
                         .requestMatchers("/api/resumes/preview-score")
+
+
                         .permitAll()
                         .anyRequest().authenticated()
                 )
